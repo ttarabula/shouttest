@@ -1,0 +1,2454 @@
+{
+  "year": 2023,
+  "total_dogs_in_distribution": 18467,
+  "note": "Frequencies are drawn from the top-200 licensed dog names in Toronto, 2023. Names outside the top 200 are not in the dataset. Park occupancy is a piecewise estimate based on area.",
+  "names": [
+    {
+      "rank": 1,
+      "name": "Luna",
+      "count": 509,
+      "freq": 0.02756267937401852
+    },
+    {
+      "rank": 2,
+      "name": "Charlie",
+      "count": 494,
+      "freq": 0.026750419667515027
+    },
+    {
+      "rank": 3,
+      "name": "Bella",
+      "count": 378,
+      "freq": 0.020468944603888015
+    },
+    {
+      "rank": 4,
+      "name": "Coco",
+      "count": 325,
+      "freq": 0.017598960307575677
+    },
+    {
+      "rank": 5,
+      "name": "Max",
+      "count": 308,
+      "freq": 0.016678399306871716
+    },
+    {
+      "rank": 6,
+      "name": "Daisy",
+      "count": 289,
+      "freq": 0.015649537011967293
+    },
+    {
+      "rank": 7,
+      "name": "Milo",
+      "count": 286,
+      "freq": 0.015487085070666595
+    },
+    {
+      "rank": 8,
+      "name": "Molly",
+      "count": 284,
+      "freq": 0.01537878377646613
+    },
+    {
+      "rank": 9,
+      "name": "Bailey",
+      "count": 254,
+      "freq": 0.013754264363459143
+    },
+    {
+      "rank": 10,
+      "name": "Lucy",
+      "count": 246,
+      "freq": 0.013321059186657281
+    },
+    {
+      "rank": 11,
+      "name": "Lola",
+      "count": 226,
+      "freq": 0.012238046244652624
+    },
+    {
+      "rank": 12,
+      "name": "Buddy",
+      "count": 218,
+      "freq": 0.011804841067850761
+    },
+    {
+      "rank": 13,
+      "name": "Cooper",
+      "count": 212,
+      "freq": 0.011479937185249364
+    },
+    {
+      "rank": 14,
+      "name": "Rosie",
+      "count": 212,
+      "freq": 0.011479937185249364
+    },
+    {
+      "rank": 15,
+      "name": "Rocky",
+      "count": 208,
+      "freq": 0.011263334596848432
+    },
+    {
+      "rank": 16,
+      "name": "Maggie",
+      "count": 205,
+      "freq": 0.011100882655547734
+    },
+    {
+      "rank": 17,
+      "name": "Teddy",
+      "count": 204,
+      "freq": 0.011046732008447501
+    },
+    {
+      "rank": 18,
+      "name": "Toby",
+      "count": 201,
+      "freq": 0.010884280067146802
+    },
+    {
+      "rank": 19,
+      "name": "Leo",
+      "count": 200,
+      "freq": 0.01083012942004657
+    },
+    {
+      "rank": 20,
+      "name": "Penny",
+      "count": 199,
+      "freq": 0.010775978772946337
+    },
+    {
+      "rank": 21,
+      "name": "Ruby",
+      "count": 196,
+      "freq": 0.010613526831645638
+    },
+    {
+      "rank": 22,
+      "name": "Riley",
+      "count": 179,
+      "freq": 0.00969296583094168
+    },
+    {
+      "rank": 23,
+      "name": "Stella",
+      "count": 177,
+      "freq": 0.009584664536741214
+    },
+    {
+      "rank": 24,
+      "name": "Lily",
+      "count": 175,
+      "freq": 0.009476363242540748
+    },
+    {
+      "rank": 25,
+      "name": "Willow",
+      "count": 153,
+      "freq": 0.008285049006335626
+    },
+    {
+      "rank": 26,
+      "name": "Oscar",
+      "count": 150,
+      "freq": 0.008122597065034928
+    },
+    {
+      "rank": 27,
+      "name": "Harley",
+      "count": 148,
+      "freq": 0.008014295770834462
+    },
+    {
+      "rank": 28,
+      "name": "Archie",
+      "count": 146,
+      "freq": 0.007905994476633996
+    },
+    {
+      "rank": 29,
+      "name": "Chloe",
+      "count": 140,
+      "freq": 0.007581090594032599
+    },
+    {
+      "rank": 30,
+      "name": "Murphy",
+      "count": 138,
+      "freq": 0.007472789299832133
+    },
+    {
+      "rank": 31,
+      "name": "Sadie",
+      "count": 138,
+      "freq": 0.007472789299832133
+    },
+    {
+      "rank": 32,
+      "name": "Jack",
+      "count": 137,
+      "freq": 0.0074186386527319
+    },
+    {
+      "rank": 33,
+      "name": "Bear",
+      "count": 133,
+      "freq": 0.007202036064330969
+    },
+    {
+      "rank": 34,
+      "name": "Ollie",
+      "count": 133,
+      "freq": 0.007202036064330969
+    },
+    {
+      "rank": 35,
+      "name": "Jasper",
+      "count": 130,
+      "freq": 0.007039584123030271
+    },
+    {
+      "rank": 36,
+      "name": "Loki",
+      "count": 130,
+      "freq": 0.007039584123030271
+    },
+    {
+      "rank": 37,
+      "name": "Winnie",
+      "count": 128,
+      "freq": 0.006931282828829805
+    },
+    {
+      "rank": 38,
+      "name": "Sophie",
+      "count": 127,
+      "freq": 0.006877132181729572
+    },
+    {
+      "rank": 39,
+      "name": "Lucky",
+      "count": 126,
+      "freq": 0.006822981534629339
+    },
+    {
+      "rank": 40,
+      "name": "Pepper",
+      "count": 124,
+      "freq": 0.006714680240428873
+    },
+    {
+      "rank": 41,
+      "name": "Poppy",
+      "count": 123,
+      "freq": 0.006660529593328641
+    },
+    {
+      "rank": 42,
+      "name": "Roxy",
+      "count": 120,
+      "freq": 0.006498077652027942
+    },
+    {
+      "rank": 43,
+      "name": "Frankie",
+      "count": 118,
+      "freq": 0.006389776357827476
+    },
+    {
+      "rank": 44,
+      "name": "Piper",
+      "count": 115,
+      "freq": 0.006227324416526778
+    },
+    {
+      "rank": 45,
+      "name": "Winston",
+      "count": 115,
+      "freq": 0.006227324416526778
+    },
+    {
+      "rank": 46,
+      "name": "Mia",
+      "count": 113,
+      "freq": 0.006119023122326312
+    },
+    {
+      "rank": 47,
+      "name": "Zoe",
+      "count": 113,
+      "freq": 0.006119023122326312
+    },
+    {
+      "rank": 48,
+      "name": "Duke",
+      "count": 112,
+      "freq": 0.006064872475226079
+    },
+    {
+      "rank": 49,
+      "name": "Finn",
+      "count": 112,
+      "freq": 0.006064872475226079
+    },
+    {
+      "rank": 50,
+      "name": "Oliver",
+      "count": 111,
+      "freq": 0.006010721828125846
+    },
+    {
+      "rank": 51,
+      "name": "Millie",
+      "count": 109,
+      "freq": 0.005902420533925381
+    },
+    {
+      "rank": 52,
+      "name": "Maya",
+      "count": 107,
+      "freq": 0.005794119239724915
+    },
+    {
+      "rank": 53,
+      "name": "Tucker",
+      "count": 106,
+      "freq": 0.005739968592624682
+    },
+    {
+      "rank": 54,
+      "name": "Nala",
+      "count": 103,
+      "freq": 0.005577516651323984
+    },
+    {
+      "rank": 55,
+      "name": "Joey",
+      "count": 100,
+      "freq": 0.005415064710023285
+    },
+    {
+      "rank": 56,
+      "name": "Bentley",
+      "count": 98,
+      "freq": 0.005306763415822819
+    },
+    {
+      "rank": 57,
+      "name": "Bruno",
+      "count": 98,
+      "freq": 0.005306763415822819
+    },
+    {
+      "rank": 58,
+      "name": "Ellie",
+      "count": 98,
+      "freq": 0.005306763415822819
+    },
+    {
+      "rank": 59,
+      "name": "Gracie",
+      "count": 97,
+      "freq": 0.005252612768722586
+    },
+    {
+      "rank": 60,
+      "name": "Shadow",
+      "count": 97,
+      "freq": 0.005252612768722586
+    },
+    {
+      "rank": 61,
+      "name": "Simba",
+      "count": 96,
+      "freq": 0.005198462121622354
+    },
+    {
+      "rank": 62,
+      "name": "Zeus",
+      "count": 96,
+      "freq": 0.005198462121622354
+    },
+    {
+      "rank": 63,
+      "name": "Zoey",
+      "count": 95,
+      "freq": 0.005144311474522121
+    },
+    {
+      "rank": 64,
+      "name": "Henry",
+      "count": 94,
+      "freq": 0.005090160827421888
+    },
+    {
+      "rank": 65,
+      "name": "Benji",
+      "count": 93,
+      "freq": 0.005036010180321655
+    },
+    {
+      "rank": 66,
+      "name": "Louie",
+      "count": 90,
+      "freq": 0.004873558239020957
+    },
+    {
+      "rank": 67,
+      "name": "Abby",
+      "count": 89,
+      "freq": 0.004819407591920724
+    },
+    {
+      "rank": 68,
+      "name": "Marley",
+      "count": 89,
+      "freq": 0.004819407591920724
+    },
+    {
+      "rank": 69,
+      "name": "Scout",
+      "count": 89,
+      "freq": 0.004819407591920724
+    },
+    {
+      "rank": 70,
+      "name": "Mocha",
+      "count": 88,
+      "freq": 0.004765256944820491
+    },
+    {
+      "rank": 71,
+      "name": "Cookie",
+      "count": 86,
+      "freq": 0.004656955650620025
+    },
+    {
+      "rank": 72,
+      "name": "Dexter",
+      "count": 86,
+      "freq": 0.004656955650620025
+    },
+    {
+      "rank": 73,
+      "name": "Lexi",
+      "count": 84,
+      "freq": 0.004548654356419559
+    },
+    {
+      "rank": 74,
+      "name": "Ginger",
+      "count": 83,
+      "freq": 0.004494503709319327
+    },
+    {
+      "rank": 75,
+      "name": "Olive",
+      "count": 83,
+      "freq": 0.004494503709319327
+    },
+    {
+      "rank": 76,
+      "name": "Lulu",
+      "count": 82,
+      "freq": 0.004440353062219094
+    },
+    {
+      "rank": 77,
+      "name": "Juno",
+      "count": 81,
+      "freq": 0.004386202415118861
+    },
+    {
+      "rank": 78,
+      "name": "Blue",
+      "count": 77,
+      "freq": 0.004169599826717929
+    },
+    {
+      "rank": 79,
+      "name": "Kobe",
+      "count": 77,
+      "freq": 0.004169599826717929
+    },
+    {
+      "rank": 80,
+      "name": "Hudson",
+      "count": 75,
+      "freq": 0.004061298532517464
+    },
+    {
+      "rank": 81,
+      "name": "Oreo",
+      "count": 75,
+      "freq": 0.004061298532517464
+    },
+    {
+      "rank": 82,
+      "name": "George",
+      "count": 73,
+      "freq": 0.003952997238316998
+    },
+    {
+      "rank": 83,
+      "name": "Hunter",
+      "count": 73,
+      "freq": 0.003952997238316998
+    },
+    {
+      "rank": 84,
+      "name": "Tyson",
+      "count": 73,
+      "freq": 0.003952997238316998
+    },
+    {
+      "rank": 85,
+      "name": "Finnegan",
+      "count": 72,
+      "freq": 0.003898846591216765
+    },
+    {
+      "rank": 86,
+      "name": "Sunny",
+      "count": 72,
+      "freq": 0.003898846591216765
+    },
+    {
+      "rank": 87,
+      "name": "Beau",
+      "count": 71,
+      "freq": 0.0038446959441165323
+    },
+    {
+      "rank": 88,
+      "name": "Phoebe",
+      "count": 71,
+      "freq": 0.0038446959441165323
+    },
+    {
+      "rank": 89,
+      "name": "Otis",
+      "count": 70,
+      "freq": 0.0037905452970162993
+    },
+    {
+      "rank": 90,
+      "name": "Rex",
+      "count": 70,
+      "freq": 0.0037905452970162993
+    },
+    {
+      "rank": 91,
+      "name": "Theo",
+      "count": 70,
+      "freq": 0.0037905452970162993
+    },
+    {
+      "rank": 92,
+      "name": "Hazel",
+      "count": 69,
+      "freq": 0.0037363946499160664
+    },
+    {
+      "rank": 93,
+      "name": "Skye",
+      "count": 69,
+      "freq": 0.0037363946499160664
+    },
+    {
+      "rank": 94,
+      "name": "Cody",
+      "count": 68,
+      "freq": 0.003682244002815834
+    },
+    {
+      "rank": 95,
+      "name": "Emma",
+      "count": 68,
+      "freq": 0.003682244002815834
+    },
+    {
+      "rank": 96,
+      "name": "Maple",
+      "count": 68,
+      "freq": 0.003682244002815834
+    },
+    {
+      "rank": 97,
+      "name": "Ella",
+      "count": 67,
+      "freq": 0.003628093355715601
+    },
+    {
+      "rank": 98,
+      "name": "Jake",
+      "count": 67,
+      "freq": 0.003628093355715601
+    },
+    {
+      "rank": 99,
+      "name": "Bowie",
+      "count": 66,
+      "freq": 0.003573942708615368
+    },
+    {
+      "rank": 100,
+      "name": "Jackson",
+      "count": 65,
+      "freq": 0.0035197920615151353
+    },
+    {
+      "rank": 101,
+      "name": "Jax",
+      "count": 65,
+      "freq": 0.0035197920615151353
+    },
+    {
+      "rank": 102,
+      "name": "Ace",
+      "count": 64,
+      "freq": 0.0034656414144149023
+    },
+    {
+      "rank": 103,
+      "name": "Hank",
+      "count": 64,
+      "freq": 0.0034656414144149023
+    },
+    {
+      "rank": 104,
+      "name": "Ozzy",
+      "count": 64,
+      "freq": 0.0034656414144149023
+    },
+    {
+      "rank": 105,
+      "name": "Sam",
+      "count": 64,
+      "freq": 0.0034656414144149023
+    },
+    {
+      "rank": 106,
+      "name": "Gus",
+      "count": 63,
+      "freq": 0.0034114907673146694
+    },
+    {
+      "rank": 107,
+      "name": "Honey",
+      "count": 63,
+      "freq": 0.0034114907673146694
+    },
+    {
+      "rank": 108,
+      "name": "Koda",
+      "count": 63,
+      "freq": 0.0034114907673146694
+    },
+    {
+      "rank": 109,
+      "name": "Prince",
+      "count": 63,
+      "freq": 0.0034114907673146694
+    },
+    {
+      "rank": 110,
+      "name": "Ziggy",
+      "count": 63,
+      "freq": 0.0034114907673146694
+    },
+    {
+      "rank": 111,
+      "name": "Cleo",
+      "count": 62,
+      "freq": 0.0033573401202144364
+    },
+    {
+      "rank": 112,
+      "name": "Monty",
+      "count": 62,
+      "freq": 0.0033573401202144364
+    },
+    {
+      "rank": 113,
+      "name": "Sasha",
+      "count": 62,
+      "freq": 0.0033573401202144364
+    },
+    {
+      "rank": 114,
+      "name": "Angel",
+      "count": 61,
+      "freq": 0.003303189473114204
+    },
+    {
+      "rank": 115,
+      "name": "Chester",
+      "count": 60,
+      "freq": 0.003249038826013971
+    },
+    {
+      "rank": 116,
+      "name": "Hugo",
+      "count": 60,
+      "freq": 0.003249038826013971
+    },
+    {
+      "rank": 117,
+      "name": "Benny",
+      "count": 59,
+      "freq": 0.003194888178913738
+    },
+    {
+      "rank": 118,
+      "name": "Reggie",
+      "count": 58,
+      "freq": 0.0031407375318135053
+    },
+    {
+      "rank": 119,
+      "name": "Rufus",
+      "count": 58,
+      "freq": 0.0031407375318135053
+    },
+    {
+      "rank": 120,
+      "name": "Rusty",
+      "count": 58,
+      "freq": 0.0031407375318135053
+    },
+    {
+      "rank": 121,
+      "name": "Princess",
+      "count": 57,
+      "freq": 0.0030865868847132724
+    },
+    {
+      "rank": 122,
+      "name": "Sammy",
+      "count": 57,
+      "freq": 0.0030865868847132724
+    },
+    {
+      "rank": 123,
+      "name": "Buster",
+      "count": 56,
+      "freq": 0.0030324362376130394
+    },
+    {
+      "rank": 124,
+      "name": "Cali",
+      "count": 56,
+      "freq": 0.0030324362376130394
+    },
+    {
+      "rank": 125,
+      "name": "Diesel",
+      "count": 56,
+      "freq": 0.0030324362376130394
+    },
+    {
+      "rank": 126,
+      "name": "Mochi",
+      "count": 56,
+      "freq": 0.0030324362376130394
+    },
+    {
+      "rank": 127,
+      "name": "Moose",
+      "count": 56,
+      "freq": 0.0030324362376130394
+    },
+    {
+      "rank": 128,
+      "name": "Alfie",
+      "count": 55,
+      "freq": 0.002978285590512807
+    },
+    {
+      "rank": 129,
+      "name": "Ivy",
+      "count": 54,
+      "freq": 0.002924134943412574
+    },
+    {
+      "rank": 130,
+      "name": "Remy",
+      "count": 54,
+      "freq": 0.002924134943412574
+    },
+    {
+      "rank": 131,
+      "name": "Layla",
+      "count": 53,
+      "freq": 0.002869984296312341
+    },
+    {
+      "rank": 132,
+      "name": "Odin",
+      "count": 53,
+      "freq": 0.002869984296312341
+    },
+    {
+      "rank": 133,
+      "name": "Oakley",
+      "count": 52,
+      "freq": 0.002815833649212108
+    },
+    {
+      "rank": 134,
+      "name": "Eddie",
+      "count": 51,
+      "freq": 0.0027616830021118754
+    },
+    {
+      "rank": 135,
+      "name": "Nova",
+      "count": 51,
+      "freq": 0.0027616830021118754
+    },
+    {
+      "rank": 136,
+      "name": "Peanut",
+      "count": 51,
+      "freq": 0.0027616830021118754
+    },
+    {
+      "rank": 137,
+      "name": "Rudy",
+      "count": 51,
+      "freq": 0.0027616830021118754
+    },
+    {
+      "rank": 138,
+      "name": "Arlo",
+      "count": 50,
+      "freq": 0.0027075323550116424
+    },
+    {
+      "rank": 139,
+      "name": "Freddie",
+      "count": 50,
+      "freq": 0.0027075323550116424
+    },
+    {
+      "rank": 140,
+      "name": "Louis",
+      "count": 50,
+      "freq": 0.0027075323550116424
+    },
+    {
+      "rank": 141,
+      "name": "Maisie",
+      "count": 50,
+      "freq": 0.0027075323550116424
+    },
+    {
+      "rank": 142,
+      "name": "Lilly",
+      "count": 49,
+      "freq": 0.0026533817079114094
+    },
+    {
+      "rank": 143,
+      "name": "Nina",
+      "count": 49,
+      "freq": 0.0026533817079114094
+    },
+    {
+      "rank": 144,
+      "name": "Walter",
+      "count": 49,
+      "freq": 0.0026533817079114094
+    },
+    {
+      "rank": 145,
+      "name": "Chico",
+      "count": 48,
+      "freq": 0.002599231060811177
+    },
+    {
+      "rank": 146,
+      "name": "Lady",
+      "count": 48,
+      "freq": 0.002599231060811177
+    },
+    {
+      "rank": 147,
+      "name": "Baxter",
+      "count": 47,
+      "freq": 0.002545080413710944
+    },
+    {
+      "rank": 148,
+      "name": "Gizmo",
+      "count": 46,
+      "freq": 0.002490929766610711
+    },
+    {
+      "rank": 149,
+      "name": "Sky",
+      "count": 46,
+      "freq": 0.002490929766610711
+    },
+    {
+      "rank": 150,
+      "name": "Stanley",
+      "count": 46,
+      "freq": 0.002490929766610711
+    },
+    {
+      "rank": 151,
+      "name": "Annie",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 152,
+      "name": "Bonnie",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 153,
+      "name": "Chewie",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 154,
+      "name": "Gigi",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 155,
+      "name": "Mickey",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 156,
+      "name": "Mila",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 157,
+      "name": "Rio",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 158,
+      "name": "Snoopy",
+      "count": 45,
+      "freq": 0.0024367791195104784
+    },
+    {
+      "rank": 159,
+      "name": "Bruce",
+      "count": 44,
+      "freq": 0.0023826284724102454
+    },
+    {
+      "rank": 160,
+      "name": "Rory",
+      "count": 44,
+      "freq": 0.0023826284724102454
+    },
+    {
+      "rank": 161,
+      "name": "Holly",
+      "count": 43,
+      "freq": 0.0023284778253100124
+    },
+    {
+      "rank": 162,
+      "name": "Mabel",
+      "count": 43,
+      "freq": 0.0023284778253100124
+    },
+    {
+      "rank": 163,
+      "name": "Pippa",
+      "count": 43,
+      "freq": 0.0023284778253100124
+    },
+    {
+      "rank": 164,
+      "name": "Thor",
+      "count": 43,
+      "freq": 0.0023284778253100124
+    },
+    {
+      "rank": 165,
+      "name": "Whiskey",
+      "count": 43,
+      "freq": 0.0023284778253100124
+    },
+    {
+      "rank": 166,
+      "name": "Georgia",
+      "count": 42,
+      "freq": 0.0022743271782097794
+    },
+    {
+      "rank": 167,
+      "name": "Harry",
+      "count": 42,
+      "freq": 0.0022743271782097794
+    },
+    {
+      "rank": 168,
+      "name": "Parker",
+      "count": 42,
+      "freq": 0.0022743271782097794
+    },
+    {
+      "rank": 169,
+      "name": "Sparky",
+      "count": 42,
+      "freq": 0.0022743271782097794
+    },
+    {
+      "rank": 170,
+      "name": "Apollo",
+      "count": 41,
+      "freq": 0.002220176531109547
+    },
+    {
+      "rank": 171,
+      "name": "Bo",
+      "count": 41,
+      "freq": 0.002220176531109547
+    },
+    {
+      "rank": 172,
+      "name": "Chase",
+      "count": 41,
+      "freq": 0.002220176531109547
+    },
+    {
+      "rank": 173,
+      "name": "Georgie",
+      "count": 41,
+      "freq": 0.002220176531109547
+    },
+    {
+      "rank": 174,
+      "name": "Heidi",
+      "count": 41,
+      "freq": 0.002220176531109547
+    },
+    {
+      "rank": 175,
+      "name": "Ripley",
+      "count": 41,
+      "freq": 0.002220176531109547
+    },
+    {
+      "rank": 176,
+      "name": "Romeo",
+      "count": 41,
+      "freq": 0.002220176531109547
+    },
+    {
+      "rank": 177,
+      "name": "Indy",
+      "count": 40,
+      "freq": 0.002166025884009314
+    },
+    {
+      "rank": 178,
+      "name": "Rocco",
+      "count": 40,
+      "freq": 0.002166025884009314
+    },
+    {
+      "rank": 179,
+      "name": "Bandit",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 180,
+      "name": "Casey",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 181,
+      "name": "Charlotte",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 182,
+      "name": "Clover",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 183,
+      "name": "Izzy",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 184,
+      "name": "Kai",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 185,
+      "name": "Mango",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 186,
+      "name": "Shelby",
+      "count": 39,
+      "freq": 0.002111875236909081
+    },
+    {
+      "rank": 187,
+      "name": "Angus",
+      "count": 38,
+      "freq": 0.0020577245898088484
+    },
+    {
+      "rank": 188,
+      "name": "Jessie",
+      "count": 38,
+      "freq": 0.0020577245898088484
+    },
+    {
+      "rank": 189,
+      "name": "Mika",
+      "count": 38,
+      "freq": 0.0020577245898088484
+    },
+    {
+      "rank": 190,
+      "name": "Momo",
+      "count": 38,
+      "freq": 0.0020577245898088484
+    },
+    {
+      "rank": 191,
+      "name": "Sandy",
+      "count": 38,
+      "freq": 0.0020577245898088484
+    },
+    {
+      "rank": 192,
+      "name": "Storm",
+      "count": 38,
+      "freq": 0.0020577245898088484
+    },
+    {
+      "rank": 193,
+      "name": "Sally",
+      "count": 37,
+      "freq": 0.0020035739427086154
+    },
+    {
+      "rank": 194,
+      "name": "Bobby",
+      "count": 36,
+      "freq": 0.0019494232956083824
+    },
+    {
+      "rank": 195,
+      "name": "Cosmo",
+      "count": 36,
+      "freq": 0.0019494232956083824
+    },
+    {
+      "rank": 196,
+      "name": "Dolly",
+      "count": 36,
+      "freq": 0.0019494232956083824
+    },
+    {
+      "rank": 197,
+      "name": "Ben",
+      "count": 35,
+      "freq": 0.0018952726485081497
+    },
+    {
+      "rank": 198,
+      "name": "Betty",
+      "count": 35,
+      "freq": 0.0018952726485081497
+    },
+    {
+      "rank": 199,
+      "name": "Billie",
+      "count": 35,
+      "freq": 0.0018952726485081497
+    },
+    {
+      "rank": 200,
+      "name": "Casper",
+      "count": 35,
+      "freq": 0.0018952726485081497
+    }
+  ],
+  "parks": [
+    {
+      "id": 3660,
+      "name": "Aitken Place Park",
+      "address": "90 Merchants' Wharf",
+      "lon": -79.3626316032127,
+      "lat": 43.6453492181521,
+      "area_sqm": 177.0,
+      "dogs_present": 3,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Synthetic K-9 Turf, Pea Gravel",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3660"
+    },
+    {
+      "id": 799,
+      "name": "Albert Campbell Square",
+      "address": "150 Borough Dr",
+      "lon": -79.255528008382,
+      "lat": 43.7740892730871,
+      "area_sqm": 128.0,
+      "dogs_present": 3,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Artificial Turf",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=799"
+    },
+    {
+      "id": 41,
+      "name": "Allan Gardens",
+      "address": "160 Gerrard St E",
+      "lon": -79.3747400678743,
+      "lat": 43.6625231521696,
+      "area_sqm": 2650.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Choker Sand",
+      "hours": "5:30 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=41"
+    },
+    {
+      "id": 137,
+      "name": "Baird Park",
+      "address": "275 Keele St",
+      "lon": -79.4621864986678,
+      "lat": 43.6624776609317,
+      "area_sqm": 902.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=137"
+    },
+    {
+      "id": 427,
+      "name": "Balmy Beach Park",
+      "address": "1 Beech Ave",
+      "lon": -79.2821315060213,
+      "lat": 43.6706885385767,
+      "area_sqm": 13845.0,
+      "dogs_present": 25,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Sand",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=427"
+    },
+    {
+      "id": 163,
+      "name": "Barbara Hall Park",
+      "address": "519 Church St",
+      "lon": -79.3800201541626,
+      "lat": 43.6665988768419,
+      "area_sqm": 968.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=163"
+    },
+    {
+      "id": 2755,
+      "name": "Bayview Arena Park",
+      "address": "3240 Bayview Ave",
+      "lon": -79.3944106668516,
+      "lat": 43.7884723266228,
+      "area_sqm": 2629.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Pea Gravel",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2755"
+    },
+    {
+      "id": 290,
+      "name": "Beresford Park",
+      "address": "400 Beresford Ave",
+      "lon": -79.4803131630834,
+      "lat": 43.6561238089872,
+      "area_sqm": 2805.0,
+      "dogs_present": 15,
+      "fenced": "None",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Grass, Dirt",
+      "hours": "7 a.m. to 10 p.m.\nExcluding months when the natural ice rink is in operation",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=290"
+    },
+    {
+      "id": 295,
+      "name": "Bickford Park",
+      "address": "400 Grace St",
+      "lon": -79.4183541651455,
+      "lat": 43.66012847373,
+      "area_sqm": 2258.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=295"
+    },
+    {
+      "id": 1901,
+      "name": "Bill Johnston Park",
+      "address": "65 Western Battery Rd",
+      "lon": -79.415324155229,
+      "lat": 43.6401477573231,
+      "area_sqm": 774.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Choker Sand",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1901"
+    },
+    {
+      "id": 739,
+      "name": "Bob Hunter Park",
+      "address": "1025 Meadowvale Rd",
+      "lon": -79.1662933432314,
+      "lat": 43.8026606520425,
+      "area_sqm": 2600.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "None",
+      "small_dog_area": "Yes",
+      "surface": "None",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=739"
+    },
+    {
+      "id": 560,
+      "name": "Botany Hill Park",
+      "address": "277 Orton Park Rd",
+      "lon": -79.2134518814513,
+      "lat": 43.7785723611373,
+      "area_sqm": 2594.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "Monday to Friday\n7 a.m. to 9 p.m.;\nSaturday & Sunday \n9 a.m. to 9 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=560"
+    },
+    {
+      "id": 2163,
+      "name": "Breadalbane Park",
+      "address": "30 Breadalbane St",
+      "lon": -79.3859805772534,
+      "lat": 43.6638026670354,
+      "area_sqm": 960.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Synthetic K-9 Turf",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id="
+    },
+    {
+      "id": 2708,
+      "name": "Canoe Landing",
+      "address": "95 Fort York Blvd",
+      "lon": -79.3970683423984,
+      "lat": 43.6391248644548,
+      "area_sqm": 532.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2708"
+    },
+    {
+      "id": 157,
+      "name": "Cassels Avenue Playground",
+      "address": "69 Cassels Ave",
+      "lon": -79.3071703843045,
+      "lat": 43.6805665767272,
+      "area_sqm": 6128.0,
+      "dogs_present": 25,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "May 1 to Sept 30\n5:30 a.m. to 9:30 a.m. \n& 8 p.m. to midnight;\n\nOct 1 to Apr 30\nPark hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=157"
+    },
+    {
+      "id": 629,
+      "name": "Cedarvale Park",
+      "address": "443 Arlington Ave",
+      "lon": -79.430089589322,
+      "lat": 43.6926711692624,
+      "area_sqm": null,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Grass",
+      "hours": "None",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=629"
+    },
+    {
+      "id": 629,
+      "name": "Cedarvale Park",
+      "address": "443 Arlington Ave",
+      "lon": -79.4291790488399,
+      "lat": 43.6919263707862,
+      "area_sqm": 4838.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "6 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=629"
+    },
+    {
+      "id": 209,
+      "name": "Cherry Beach/Clarke Beach Park",
+      "address": "1 Cherry St",
+      "lon": -79.3465600778049,
+      "lat": 43.6352067472826,
+      "area_sqm": 38807.0,
+      "dogs_present": 40,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Sand, Pea Gravel",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=209"
+    },
+    {
+      "id": 204,
+      "name": "Clarence Square Park",
+      "address": "25 Clarence Sq",
+      "lon": -79.3935967665531,
+      "lat": 43.6439532097291,
+      "area_sqm": 1970.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=204"
+    },
+    {
+      "id": 4,
+      "name": "Colonel Danforth Park",
+      "address": "240 Old Kingston Rd",
+      "lon": -79.1774222080451,
+      "lat": 43.7789976363015,
+      "area_sqm": 3476.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Pea Gravel",
+      "hours": "6 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=4"
+    },
+    {
+      "id": 466,
+      "name": "Colonel Samuel Smith Park",
+      "address": "65 Colonel Samuel Smith Park Dr",
+      "lon": -79.517466412099,
+      "lat": 43.5935408831024,
+      "area_sqm": 4118.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Dirt",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=466"
+    },
+    {
+      "id": 2262,
+      "name": "Confederation Park",
+      "address": "250 Dolly Varden Blvd",
+      "lon": -79.2350610590505,
+      "lat": 43.7737233013721,
+      "area_sqm": 3652.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Pea Gravel",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2262"
+    },
+    {
+      "id": 467,
+      "name": "Coronation Park - Toronto",
+      "address": "711 Lake Shore Blvd W",
+      "lon": -79.4037711261494,
+      "lat": 43.6336997357903,
+      "area_sqm": 6020.0,
+      "dogs_present": 25,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "7 a.m. to 11 p.m. \nCDW only allowed Monday to Friday 10 a.m. to 2 p.m.\n",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=467"
+    },
+    {
+      "id": 2430,
+      "name": "Coxwell Ravine Park",
+      "address": "260 Dawes Rd",
+      "lon": -79.3318360314748,
+      "lat": 43.7013502797738,
+      "area_sqm": 1038.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "6 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2430"
+    },
+    {
+      "id": 370,
+      "name": "Craigleigh Gardens",
+      "address": "160 South Dr",
+      "lon": -79.3724023378818,
+      "lat": 43.6776358955718,
+      "area_sqm": 6015.0,
+      "dogs_present": 25,
+      "fenced": "Partial",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "6 a.m. to 10 a.m. \n& 6 p.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=370"
+    },
+    {
+      "id": 338,
+      "name": "David Crombie Park",
+      "address": "131 The Esplanade",
+      "lon": -79.3680805247808,
+      "lat": 43.6485018441891,
+      "area_sqm": 1496.0,
+      "dogs_present": 8,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "6 a.m. to 8 a.m. \n& 5 p.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=338"
+    },
+    {
+      "id": 1058,
+      "name": "Don Russell Memorial Park",
+      "address": "290 Birmingham St",
+      "lon": -79.5216051617156,
+      "lat": 43.6020918330429,
+      "area_sqm": 16509.0,
+      "dogs_present": 40,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Dirt",
+      "hours": "May 1 to Oct 31\n6 a.m. to 9 a.m. \n& 8 p.m. to midnight\n\nNov 1 to Apr 30\n6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1058"
+    },
+    {
+      "id": 1449,
+      "name": "Don Valley Brick Works",
+      "address": "550 Bayview Ave",
+      "lon": -79.3670413270924,
+      "lat": 43.6828231482433,
+      "area_sqm": 4186.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Dirt",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1449"
+    },
+    {
+      "id": 337,
+      "name": "Earl Bales Park",
+      "address": "4169 Bathurst St",
+      "lon": -79.4309950287725,
+      "lat": 43.7557103115264,
+      "area_sqm": 4969.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "6 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=337"
+    },
+    {
+      "id": 514,
+      "name": "Earlscourt Park",
+      "address": "1200 Lansdowne Ave",
+      "lon": -79.4492421153436,
+      "lat": 43.6719831944094,
+      "area_sqm": 1785.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "7 a.m. to 10 p.m.\nCDW only allowed 9 a.m. to 3 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=514"
+    },
+    {
+      "id": 1065,
+      "name": "Frank Faubert Wood Lot",
+      "address": "185 Borough Dr",
+      "lon": -79.2572109298388,
+      "lat": 43.7715557423106,
+      "area_sqm": 1351.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1065"
+    },
+    {
+      "id": 11,
+      "name": "G. Ross Lord Park",
+      "address": "4801 Dufferin St",
+      "lon": -79.4681561559785,
+      "lat": 43.7777206087928,
+      "area_sqm": 2890.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=11"
+    },
+    {
+      "id": 50,
+      "name": "Gerrard - Carlaw Parkette",
+      "address": "855 Gerrard St E",
+      "lon": -79.3433179028527,
+      "lat": 43.6672180789137,
+      "area_sqm": 1881.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "7 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=50"
+    },
+    {
+      "id": 1465,
+      "name": "Grand Avenue Park",
+      "address": "1 Grand Ave",
+      "lon": -79.4906605469549,
+      "lat": 43.6219829372598,
+      "area_sqm": 685.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Choker Sand",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1465"
+    },
+    {
+      "id": 1431,
+      "name": "Grange Park",
+      "address": "26 Grange Rd",
+      "lon": -79.3923629418935,
+      "lat": 43.652055106761,
+      "area_sqm": 591.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1431"
+    },
+    {
+      "id": 70,
+      "name": "Greenwood Park",
+      "address": "150 Greenwood Ave",
+      "lon": -79.3289490112829,
+      "lat": 43.6678177560724,
+      "area_sqm": 2648.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Synthetic K-9 Turf, Grass",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=70"
+    },
+    {
+      "id": 75,
+      "name": "Hideaway Park",
+      "address": "23 Audley Ave",
+      "lon": -79.3378474247418,
+      "lat": 43.6649902217857,
+      "area_sqm": 480.0,
+      "dogs_present": 3,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "7 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=75"
+    },
+    {
+      "id": 77,
+      "name": "High Park",
+      "address": "1873 Bloor St W",
+      "lon": -79.4636100500872,
+      "lat": 43.6469307387253,
+      "area_sqm": 32246.0,
+      "dogs_present": 40,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Sand",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=77"
+    },
+    {
+      "id": 79,
+      "name": "Hillcrest Park",
+      "address": "950 Davenport Rd",
+      "lon": -79.4242249462186,
+      "lat": 43.6762908292425,
+      "area_sqm": 1888.0,
+      "dogs_present": 8,
+      "fenced": "Partial",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Dirt",
+      "hours": "Nov 1 to Mar 31\n6 a.m. to 11 p.m.;\n\nApr 1 to Oct 31 \n6 a.m. to 9 a.m. \n& 8 p.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=79"
+    },
+    {
+      "id": 1074,
+      "name": "Humber Bay Park West",
+      "address": "2225 Lake Shore Blvd W",
+      "lon": -79.4833091860925,
+      "lat": 43.6131081573685,
+      "area_sqm": 6227.0,
+      "dogs_present": 25,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Dirt, Engineered Wood Fibre",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1074"
+    },
+    {
+      "id": 93,
+      "name": "Huron Street Playground",
+      "address": "495 Huron St",
+      "lon": -79.402122132641,
+      "lat": 43.6692869024356,
+      "area_sqm": 317.0,
+      "dogs_present": 3,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Artificial Turf",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=93"
+    },
+    {
+      "id": 3665,
+      "name": "Joseph Tough Park",
+      "address": "246 Davenport Rd",
+      "lon": -79.39775672256,
+      "lat": 43.6746279889683,
+      "area_sqm": null,
+      "dogs_present": 8,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "None",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3665"
+    },
+    {
+      "id": 107,
+      "name": "Kew Gardens",
+      "address": "2075 Queen St E",
+      "lon": -79.2969959129287,
+      "lat": 43.6658973191957,
+      "area_sqm": 20733.0,
+      "dogs_present": 40,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Sand",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=107"
+    },
+    {
+      "id": 1080,
+      "name": "King's Mill Park",
+      "address": "9 Catherine St",
+      "lon": -79.491922953263,
+      "lat": 43.6418791127685,
+      "area_sqm": 12737.0,
+      "dogs_present": 25,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Dirt",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1080"
+    },
+    {
+      "id": 2472,
+      "name": "L'Amoreaux North Park",
+      "address": "1900 Mcnicoll Ave",
+      "lon": -79.305246484617,
+      "lat": 43.8100619360544,
+      "area_sqm": 2353.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "7 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2472"
+    },
+    {
+      "id": 2443,
+      "name": "Linkwood Lane Park",
+      "address": "10 Linkwood Lane",
+      "lon": -79.3246599781478,
+      "lat": 43.7129475917073,
+      "area_sqm": 2226.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "6 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2443"
+    },
+    {
+      "id": 3799,
+      "name": "Love Park",
+      "address": "96 Queens Quay W",
+      "lon": -79.3797249900008,
+      "lat": 43.6411039023313,
+      "area_sqm": 215.0,
+      "dogs_present": 3,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Synthetic K-9 Turf",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3799"
+    },
+    {
+      "id": 6,
+      "name": "Marie Curtis Park",
+      "address": "2 Forty Second St",
+      "lon": -79.5461472731885,
+      "lat": 43.5864861720149,
+      "area_sqm": 4764.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Choker Sand",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=6"
+    },
+    {
+      "id": 707,
+      "name": "McCowan Park",
+      "address": "475 Mccowan Rd",
+      "lon": -79.2401524487234,
+      "lat": 43.7446700203999,
+      "area_sqm": 4703.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Grass",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=707"
+    },
+    {
+      "id": 134,
+      "name": "Merrill Bridge Road Park",
+      "address": "1 East Lynn Ave",
+      "lon": -79.3139521235444,
+      "lat": 43.6815710581624,
+      "area_sqm": 5005.0,
+      "dogs_present": 25,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Engineered Wood Fibre",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=134"
+    },
+    {
+      "id": 145,
+      "name": "Monarch Park",
+      "address": "115 Felstead Ave",
+      "lon": -79.3247703224625,
+      "lat": 43.67768820163,
+      "area_sqm": 12335.0,
+      "dogs_present": 25,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=145"
+    },
+    {
+      "id": 228,
+      "name": "Norwood Park",
+      "address": "16 Norwood Rd",
+      "lon": -79.3038664493893,
+      "lat": 43.6825026941542,
+      "area_sqm": 1654.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Sand",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=228"
+    },
+    {
+      "id": 236,
+      "name": "Oakcrest Parkette",
+      "address": "30 Oakcrest Ave",
+      "lon": -79.311286004433,
+      "lat": 43.6832793967442,
+      "area_sqm": 1330.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "7 a.m. to 8 a.m. \n& 6 p.m. to 7 p.m. \n& 9:30 p.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=236"
+    },
+    {
+      "id": 3641,
+      "name": "Orphan's Green",
+      "address": "51 Power St",
+      "lon": -79.3624387511496,
+      "lat": 43.6546602356942,
+      "area_sqm": 1695.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3641"
+    },
+    {
+      "id": 248,
+      "name": "Osler Playground",
+      "address": "123 Argyle St",
+      "lon": -79.4224691525389,
+      "lat": 43.6457315720163,
+      "area_sqm": null,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=248"
+    },
+    {
+      "id": 167,
+      "name": "Ramsden Park",
+      "address": "1020 Yonge St",
+      "lon": -79.3960294921135,
+      "lat": 43.6764824164298,
+      "area_sqm": 2372.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "Yes",
+      "surface": "Engineered Wood Fibre",
+      "hours": "7 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=167"
+    },
+    {
+      "id": 1489,
+      "name": "Raymore Park",
+      "address": "95 Raymore Dr",
+      "lon": -79.5142537191441,
+      "lat": 43.6933961989639,
+      "area_sqm": 2806.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Pea Gravel",
+      "hours": "7 a.m. to 9:30 p.m.\nCDW only allowed from May 1 to Oct 31",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1489"
+    },
+    {
+      "id": 2788,
+      "name": "Regent Park",
+      "address": "600 Dundas St E",
+      "lon": -79.3628923732482,
+      "lat": 43.6607356676187,
+      "area_sqm": 836.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2788"
+    },
+    {
+      "id": 343,
+      "name": "Riverdale Park East",
+      "address": "550 Broadview Ave",
+      "lon": -79.356902550268,
+      "lat": 43.6718428347504,
+      "area_sqm": 4486.0,
+      "dogs_present": 15,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=343"
+    },
+    {
+      "id": 344,
+      "name": "Riverdale Park West",
+      "address": "375 Sumach St",
+      "lon": -79.3588901959637,
+      "lat": 43.6660297959719,
+      "area_sqm": 45246.0,
+      "dogs_present": 40,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=344"
+    },
+    {
+      "id": 439,
+      "name": "Sandy Bruce Park",
+      "address": "426 Moore Ave",
+      "lon": -79.3708954507763,
+      "lat": 43.6974487333925,
+      "area_sqm": 2392.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=439"
+    },
+    {
+      "id": 1100,
+      "name": "Scarborough Heights Park",
+      "address": "27 Fishleigh Dr",
+      "lon": -79.2506606844977,
+      "lat": 43.6997720347494,
+      "area_sqm": 2528.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Engineered Wood Fibre",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1100"
+    },
+    {
+      "id": 149,
+      "name": "Sherwood Park",
+      "address": "190 Sherwood Ave",
+      "lon": -79.3846763250867,
+      "lat": 43.7166924310153,
+      "area_sqm": 4475.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Boardwalk, Natural Trail",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=149"
+    },
+    {
+      "id": 71,
+      "name": "Sir Casimir Czowski Park",
+      "address": "2001 Lake Shore Blvd W",
+      "lon": -79.4701197293046,
+      "lat": 43.6335671404932,
+      "area_sqm": 1678.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "6 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=71"
+    },
+    {
+      "id": 200,
+      "name": "Sir Winston Churchill Park",
+      "address": "301 St Clair Ave W",
+      "lon": -79.4098444556462,
+      "lat": 43.68251880963,
+      "area_sqm": 1812.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Choker Sand",
+      "hours": "6 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=200"
+    },
+    {
+      "id": 348,
+      "name": "Sorauren Avenue Park",
+      "address": "289 Sorauren Ave",
+      "lon": -79.4428417899262,
+      "lat": 43.6488342613247,
+      "area_sqm": 1623.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Crushed Granite",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=348"
+    },
+    {
+      "id": 183,
+      "name": "St. Andrew's Playground",
+      "address": "450 Adelaide St W",
+      "lon": -79.399417476534,
+      "lat": 43.6462789461493,
+      "area_sqm": 859.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Synthetic K-9 Turf",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=183"
+    },
+    {
+      "id": 421,
+      "name": "Stan Wadlow Park",
+      "address": "888 Cosburn Ave",
+      "lon": -79.3145089799421,
+      "lat": 43.6995068974526,
+      "area_sqm": 2178.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "Yes",
+      "surface": "Engineered Wood Fibre",
+      "hours": "6 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=421"
+    },
+    {
+      "id": 2750,
+      "name": "Stanley Park South - Toronto",
+      "address": "700 Wellington St W",
+      "lon": -79.4091074318837,
+      "lat": 43.6414916437865,
+      "area_sqm": 2165.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Crushed Granite",
+      "hours": "6 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2750"
+    },
+    {
+      "id": 28,
+      "name": "Sunnybrook Park",
+      "address": "1132 Leslie St",
+      "lon": -79.3657569813453,
+      "lat": 43.7221144929075,
+      "area_sqm": 11168.0,
+      "dogs_present": 25,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "Yes",
+      "surface": "Grass",
+      "hours": "6 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=28"
+    },
+    {
+      "id": 475,
+      "name": "The Pocket",
+      "address": "400 Greenwood Ave",
+      "lon": -79.3342765814918,
+      "lat": 43.6777402741549,
+      "area_sqm": 10358.0,
+      "dogs_present": 25,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=475"
+    },
+    {
+      "id": 1472,
+      "name": "Thompson Street Parkette",
+      "address": "120 Broadview Ave",
+      "lon": -79.3506501653276,
+      "lat": 43.6593014710788,
+      "area_sqm": 917.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1472"
+    },
+    {
+      "id": 543,
+      "name": "Thomson Memorial Park",
+      "address": "1005 Brimley Rd",
+      "lon": -79.2528439377587,
+      "lat": 43.7566235638521,
+      "area_sqm": 20653.0,
+      "dogs_present": 40,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "Yes",
+      "surface": "Grass",
+      "hours": "7 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=543"
+    },
+    {
+      "id": 241,
+      "name": "Trinity Bellwoods Park",
+      "address": "790 Queen St W",
+      "lon": -79.414482000043,
+      "lat": 43.6484670761059,
+      "area_sqm": 15733.0,
+      "dogs_present": 40,
+      "fenced": "None",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Limestone Screening",
+      "hours": "6 a.m. to midnight",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=241"
+    },
+    {
+      "id": 250,
+      "name": "Vermont Square Park",
+      "address": "819 Palmerston Ave",
+      "lon": -79.4150847745683,
+      "lat": 43.6704103007735,
+      "area_sqm": 1240.0,
+      "dogs_present": 8,
+      "fenced": "None",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "June 1 to Sept 30\n6 a.m. to 9 a.m. \n& 8 p.m. to 11 p.m.;\n\nOct 1 to May 31\n6:30 a.m. to 9 a.m. \n& 6:30 p.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=250"
+    },
+    {
+      "id": 441,
+      "name": "Warden Woods Parks",
+      "address": "125 Pharmacy Ave",
+      "lon": -79.2841967117982,
+      "lat": 43.6983978642558,
+      "area_sqm": 1595.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Choker Sand",
+      "hours": "7 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=441"
+    },
+    {
+      "id": 288,
+      "name": "Wildwood Crescent Playground",
+      "address": "110 Wildwood Cres",
+      "lon": -79.3124277123856,
+      "lat": 43.6813351800215,
+      "area_sqm": 1486.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=288"
+    },
+    {
+      "id": 306,
+      "name": "Withrow Park",
+      "address": "725 Logan Ave",
+      "lon": -79.3469451789053,
+      "lat": 43.6739894300575,
+      "area_sqm": 4415.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "Park hours",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=306"
+    },
+    {
+      "id": 2238,
+      "name": "Woburn Park - North York",
+      "address": "575 Cranbrooke Ave",
+      "lon": -79.4295924958394,
+      "lat": 43.7238710042729,
+      "area_sqm": 532.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Pea Gravel",
+      "hours": "7 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=2238"
+    },
+    {
+      "id": 1448,
+      "name": "Woolner Park",
+      "address": "735 Jane St",
+      "lon": -79.4918489581159,
+      "lat": 43.6714677194969,
+      "area_sqm": 3056.0,
+      "dogs_present": 15,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Grass",
+      "hours": "6 a.m. to 10 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=1448"
+    },
+    {
+      "id": 461,
+      "name": "Wychwood Barns Park",
+      "address": "76 Wychwood Ave",
+      "lon": -79.4243579497432,
+      "lat": 43.6793666455795,
+      "area_sqm": 1231.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "Yes",
+      "small_dog_area": "No",
+      "surface": "Crushed Granite",
+      "hours": "Tuesday to Saturday\n7:30 a.m. to noon \n& 3 p.m. to 9 p.m.;\nSunday to Monday\n10 a.m. to noon \n& 3 p.m. to 9 p.m. \n(Closed daily noon to 3 p.m.)",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=461"
+    },
+    {
+      "id": 918,
+      "name": "Yonge and York Mills",
+      "address": "4200 Yonge St",
+      "lon": -79.4076988952156,
+      "lat": 43.7449608641446,
+      "area_sqm": 1910.0,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Grass, Engineered Wood Fibre",
+      "hours": "6 a.m. to 11 p.m.",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=918"
+    },
+    {
+      "id": 3826,
+      "name": "Zorra Park",
+      "address": "30 Zorra St",
+      "lon": -79.5220403493944,
+      "lat": 43.6203979330862,
+      "area_sqm": null,
+      "dogs_present": 8,
+      "fenced": "Full",
+      "lit": "No",
+      "small_dog_area": "No",
+      "surface": "Engineered Wood Fibre",
+      "hours": "None",
+      "url": "https://www.toronto.ca/explore-enjoy/parks-recreation/places-spaces/parks-and-recreation-facilities/location/?id=3826"
+    }
+  ]
+}

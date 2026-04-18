@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Off-Leash Bingo</title>
+<meta name="description" content="A printable 5x5 bingo card of the top Toronto dog names, for use at off-leash areas.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐕%3C/text%3E%3C/svg%3E">
+<style>
+  @page { size: letter; margin: 0.5in; }
+  :root { --rule: #d9d4c7; --muted: #666; }
+  * { box-sizing: border-box; }
+  body {
+    font: 16px/1.4 "Iowan Old Style", "Palatino", Georgia, serif;
+    background: #faf8f3; margin: 0; padding: 2rem 1.25rem;
+  }
+  main { max-width: 700px; margin: 0 auto; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+  .eyebrow { font: 600 11px/1 ui-monospace, Menlo, monospace; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin: 0 0 .5rem; }
+  .lede { color: var(--muted); font-style: italic; margin: 0 0 1.5rem; }
+  table { border-collapse: collapse; width: 100%; table-layout: fixed; background: #fff; }
+  td { border: 1px solid #333; aspect-ratio: 1; text-align: center; vertical-align: middle;
+       padding: .3rem; font-size: 1rem; line-height: 1.2; word-break: break-word; cursor: pointer;
+       user-select: none; }
+  td.free { background: #f1ede3; font-style: italic; font-size: .85rem; }
+  td.marked { background: #1a1a1a; color: #fff; }
+  td.marked.free { background: #333; }
+  .controls { margin-top: 1.5rem; color: var(--muted); font-size: .9rem;
+              display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; }
+  .controls input { font: inherit; padding: .3rem .5rem; border: 1px solid var(--rule); width: 6rem; background: #fff; }
+  .controls button { font: inherit; padding: .3rem .75rem; border: 1px solid var(--rule);
+                     background: #fff; cursor: pointer; }
+  .controls button:hover { background: #f1ede3; }
+  @media print {
+    .controls, .fine { display: none; }
+    td { cursor: default; }
+    td.marked { background: #fff; color: #000; }
+    td.marked::before { content: "✕ "; }
+  }
+  .fine { margin-top: 1rem; color: var(--muted); font-size: .8rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Toronto Off-Leash Area Methodology Office · Field Aid 02</p>
+  <h1>Off-Leash Bingo</h1>
+  <p class="lede">
+    Card <span id="card-id">#1</span>. Names drawn from the top 100 Toronto dog names (2023).
+    Five in a row wins. Prize: dignity. Tap a cell to mark it.
+  </p>
+  <table><tbody id="grid"></tbody></table>
+  <div class="controls">
+    <label for="seed">Seed:</label>
+    <input id="seed" type="number" min="1" value="1">
+    <button id="new-card" type="button">New card</button>
+    <button id="random" type="button">Random</button>
+    <button id="print" type="button">Print</button>
+  </div>
+  <p class="fine">Data: City of Toronto Open Data — Licensed Dog and Cat Names, 2023.</p>
+</main>
+
+<script>
+const WILDS = [
+  "A dog named Kevin",
+  "A dog wearing a jacket",
+  "A dog named after food",
+  "Two dogs with the same name",
+  "A human yelling the wrong name",
+  "A tennis ball, uncontested",
+  "A dog who refuses to leave",
+  "A dog named after a hockey player",
+];
+const FREE = "FREE: a golden retriever";
+
+function mulberry32(seed) {
+  return function () {
+    let t = (seed += 0x6D2B79F5);
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function shuffle(arr, rng) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function sample(arr, n, rng) { return shuffle(arr, rng).slice(0, n); }
+
+function makeCard(pool, seed) {
+  const rng = mulberry32(seed);
+  const names = sample(pool, 20, rng);
+  const wilds = sample(WILDS, 4, rng);
+  const tiles = shuffle(names.concat(wilds), rng);
+  const grid = [];
+  for (let r = 0; r < 5; r++) grid.push(tiles.slice(r * 5, (r + 1) * 5));
+  grid[2][2] = FREE;
+  return grid;
+}
+
+function render(grid, seed) {
+  const tbody = document.getElementById("grid");
+  tbody.innerHTML = "";
+  for (let r = 0; r < 5; r++) {
+    const tr = document.createElement("tr");
+    for (let c = 0; c < 5; c++) {
+      const td = document.createElement("td");
+      td.textContent = grid[r][c];
+      if (r === 2 && c === 2) { td.classList.add("free"); td.classList.add("marked"); }
+      td.addEventListener("click", () => td.classList.toggle("marked"));
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+  document.getElementById("card-id").textContent = "#" + seed;
+  document.getElementById("seed").value = seed;
+}
+
+function currentSeed() {
+  const h = location.hash.slice(1);
+  const n = parseInt(h, 10);
+  return Number.isFinite(n) && n > 0 ? n : 1;
+}
+
+(async () => {
+  const res = await fetch("data/shouttest.json");
+  const data = await res.json();
+  const pool = data.names.slice(0, 100).map((n) => n.name);
+
+  function go(seed) {
+    history.replaceState(null, "", "#" + seed);
+    render(makeCard(pool, seed), seed);
+  }
+
+  document.getElementById("new-card").addEventListener("click", () => {
+    const v = parseInt(document.getElementById("seed").value, 10);
+    go(Number.isFinite(v) && v > 0 ? v : 1);
+  });
+  document.getElementById("random").addEventListener("click", () => {
+    go(Math.floor(Math.random() * 100000) + 1);
+  });
+  document.getElementById("print").addEventListener("click", () => window.print());
+  window.addEventListener("hashchange", () => go(currentSeed()));
+
+  go(currentSeed());
+})();
+</script>
+</body>
+</html>

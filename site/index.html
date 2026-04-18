@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Shout Test — Toronto Off-Leash Area Name-Yelling Calculator</title>
+<meta name="description" content="Estimates how many dogs will turn around when you yell a name at a Toronto off-leash area. Uses City of Toronto open data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐕%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #666;
+    --accent: #b91c1c;
+    --bg: #faf8f3;
+    --card: #ffffff;
+    --rule: #d9d4c7;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.55 "Iowan Old Style", "Palatino", Georgia, serif;
+    padding: 2.5rem 1.25rem 6rem;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { border-bottom: 3px double var(--rule); padding-bottom: 1.25rem; margin-bottom: 1.75rem; }
+  .eyebrow {
+    font: 600 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: .18em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 .5rem;
+  }
+  h1 { font-size: 2.1rem; line-height: 1.1; margin: 0 0 .5rem; letter-spacing: -.01em; }
+  .lede { color: var(--muted); margin: 0; font-style: italic; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    padding: 1.25rem 1.25rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .row { display: grid; gap: .75rem; grid-template-columns: 1fr 1fr; margin-bottom: 1rem; }
+  @media (max-width: 520px) { .row { grid-template-columns: 1fr; } }
+  label {
+    display: block;
+    font: 600 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+    margin-bottom: .35rem;
+  }
+  select {
+    width: 100%;
+    font: 1rem/1.3 "Iowan Old Style", Georgia, serif;
+    padding: .55rem .6rem;
+    border: 1px solid var(--rule);
+    background: #fff;
+  }
+
+  .result {
+    border-top: 1px solid var(--rule);
+    padding-top: 1rem;
+  }
+  .headline {
+    font-size: 1.4rem; line-height: 1.25; margin: 0 0 .75rem;
+  }
+  .bignum { color: var(--accent); font-weight: 700; }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem 1.25rem; margin: 0; padding: 0; list-style: none; }
+  .stats dt { font: 600 10px/1 ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .stats dd { margin: .15rem 0 0; font-size: 1.1rem; }
+
+  details { margin-top: 1rem; font-size: .95rem; color: var(--muted); }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: .5rem 0; }
+  details code { background: #f1ede3; padding: .1em .3em; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    margin-top: 2.5rem; padding-top: 1rem;
+    font-size: .85rem; color: var(--muted);
+  }
+  footer a { color: var(--muted); }
+  .fine { font-size: .8rem; color: var(--muted); margin-top: .5rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Toronto Off-Leash Area Methodology Office · Report 01</p>
+    <h1>The Shout Test</h1>
+    <p class="lede">How many dogs will turn around if you yell a name at an off-leash area? A civic estimation service.</p>
+  </header>
+
+  <section class="card" aria-labelledby="calc">
+    <h2 id="calc" class="eyebrow" style="margin-bottom:1rem">Calculator</h2>
+    <div class="row">
+      <div>
+        <label for="name-sel">Name</label>
+        <select id="name-sel"></select>
+      </div>
+      <div>
+        <label for="park-sel">Off-leash area</label>
+        <select id="park-sel"></select>
+      </div>
+    </div>
+    <div class="result">
+      <p class="headline" id="headline">Pick a name and a park.</p>
+      <dl class="stats">
+        <div><dt>Expected heads turned</dt><dd id="expected">—</dd></div>
+        <div><dt>Chance at least one dog reacts</dt><dd id="atleastone">—</dd></div>
+        <div><dt>Dogs present (est.)</dt><dd id="dogs">—</dd></div>
+        <div><dt>Name share (top-200)</dt><dd id="share">—</dd></div>
+      </dl>
+    </div>
+    <details>
+      <summary>Methodology &amp; caveats</summary>
+      <p>
+        Name frequencies come from the City of Toronto's
+        <a href="https://open.toronto.ca/dataset/licensed-dog-and-cat-names/">Licensed Dog and Cat Names</a>
+        dataset (2023 — the most recent complete year). The dataset only publishes the top 200 names;
+        anything off-chart is invisible to us. A dog's "name share" is its count divided by the
+        18,467 registered dogs in that year's top-200.
+      </p>
+      <p>
+        Park occupancy is an unscientific piecewise estimate based on
+        <code>area_sqm</code> from the
+        <a href="https://open.toronto.ca/dataset/off-leash-areas/">Off-Leash Areas</a> dataset.
+        A 128-sqm postage-stamp gets ~3 dogs; High Park gets ~40. Real attendance varies by time,
+        weather, and whether the guy with the tennis-ball chucker is there.
+      </p>
+      <p>
+        Given <em>n</em> dogs and name-share <em>p</em>, expected heads turned is
+        <code>n × p</code> and the probability of at least one reaction is
+        <code>1 − (1 − p)<sup>n</sup></code>. We assume independence, which is wrong
+        (dogs chain-react), but by the time we fix that you're already home.
+      </p>
+    </details>
+  </section>
+
+  <footer>
+    <p>
+      Data: City of Toronto Open Data — <a href="https://open.toronto.ca/dataset/licensed-dog-and-cat-names/">Licensed Dog and Cat Names</a>,
+      <a href="https://open.toronto.ca/dataset/off-leash-areas/">Off-Leash Areas</a>.
+      Not affiliated with the City of Toronto.
+    </p>
+    <p class="fine">No warranty, express or implied, as to the behaviour of any specific dog.</p>
+  </footer>
+</main>
+
+<script>
+(async () => {
+  const res = await fetch("data/shouttest.json");
+  const data = await res.json();
+
+  const nameSel = document.getElementById("name-sel");
+  const parkSel = document.getElementById("park-sel");
+
+  // Populate names (ordered by rank)
+  for (const n of data.names) {
+    const o = document.createElement("option");
+    o.value = n.rank;
+    o.textContent = `${n.name} — #${n.rank} (${n.count})`;
+    nameSel.appendChild(o);
+  }
+  // Populate parks (alphabetical)
+  for (const p of data.parks) {
+    const o = document.createElement("option");
+    o.value = p.id;
+    o.textContent = p.name;
+    parkSel.appendChild(o);
+  }
+
+  // Defaults: Luna + High Park if available
+  const luna = data.names.find(n => n.name.toLowerCase() === "luna");
+  const hp = data.parks.find(p => /high park/i.test(p.name));
+  if (luna) nameSel.value = luna.rank;
+  if (hp) parkSel.value = hp.id;
+
+  function pct(x) { return (x * 100).toFixed(x < .01 ? 2 : 0) + "%"; }
+  function headline(name, park, expected, atLeastOne, dogs) {
+    const who = name.name.toUpperCase();
+    const where = park.name;
+    if (expected >= 3) {
+      return `Yelling "${who}!" at ${where} will turn an estimated ` +
+        `<span class="bignum">${expected.toFixed(1)}</span> heads. Bring snacks.`;
+    }
+    if (atLeastOne >= .5) {
+      return `At ${where}, "${who}!" has a ` +
+        `<span class="bignum">${pct(atLeastOne)}</span> shot at turning at least one head. ` +
+        `Expected: ${expected.toFixed(2)}.`;
+    }
+    if (atLeastOne >= .1) {
+      return `"${who}!" at ${where}: <span class="bignum">${pct(atLeastOne)}</span> ` +
+        `odds of a bite. Wouldn't bet the leash on it.`;
+    }
+    return `"${who}!" at ${where}: only <span class="bignum">${pct(atLeastOne)}</span>. ` +
+      `You're basically talking to yourself.`;
+  }
+
+  function render() {
+    const name = data.names.find(n => n.rank === +nameSel.value);
+    const park = data.parks.find(p => p.id === +parkSel.value);
+    if (!name || !park) return;
+    const n = park.dogs_present;
+    const p = name.freq;
+    const expected = n * p;
+    const atLeastOne = 1 - Math.pow(1 - p, n);
+    document.getElementById("headline").innerHTML = headline(name, park, expected, atLeastOne, n);
+    document.getElementById("expected").textContent = expected.toFixed(2);
+    document.getElementById("atleastone").textContent = pct(atLeastOne);
+    document.getElementById("dogs").textContent = `~${n}` +
+      (park.area_sqm ? ` (${park.area_sqm.toLocaleString()} m²)` : "");
+    document.getElementById("share").textContent = pct(p);
+  }
+  nameSel.addEventListener("change", render);
+  parkSel.addEventListener("change", render);
+  render();
+})();
+</script>
+</body>
+</html>
