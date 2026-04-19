@@ -72,6 +72,14 @@
   details p { margin: .5rem 0; }
   details code { background: #f1ede3; padding: .1em .3em; }
 
+  .reading { border-top: 1px solid var(--rule); padding-top: 1rem; }
+  .reading .park { font-size: 1.2rem; font-weight: 700; margin: 0 0 .15rem; letter-spacing: -.005em; }
+  .reading .patron { color: var(--accent); }
+  .reading .line { margin: .35rem 0; line-height: 1.45; }
+  .reading .line .field { color: var(--muted); font: 600 10px/1 ui-monospace, Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; margin-right: .35em; }
+  .reading .energy { margin-top: 1rem; font-size: 1.05rem; }
+  .reading .energy strong { color: var(--accent); }
+
   footer {
     border-top: 1px solid var(--rule);
     margin-top: 2.5rem; padding-top: 1rem;
@@ -131,6 +139,28 @@
         <code>n × p</code> and the probability of at least one reaction is
         <code>1 − (1 − p)<sup>n</sup></code>. We assume independence, which is wrong
         (dogs chain-react), but by the time we fix that you're already home.
+      </p>
+    </details>
+  </section>
+
+  <section class="card" aria-labelledby="astro">
+    <h2 id="astro" class="eyebrow" style="margin-bottom:1rem">Reading 03 · Park Horoscope</h2>
+    <div class="row" style="grid-template-columns:1fr">
+      <div>
+        <label for="astro-sel">Off-leash area</label>
+        <select id="astro-sel"></select>
+      </div>
+    </div>
+    <div class="reading" id="astro-out">Pick a park.</div>
+    <details>
+      <summary>Methodology</summary>
+      <p>
+        The patron name is a deterministic hash of the park's name into the top
+        100 dog names — pick the same park, get the same patron. Every other
+        line in the reading is the park's actual amenity record from the
+        <a href="https://open.toronto.ca/dataset/off-leash-areas/">Off-Leash Areas</a>
+        dataset, with the stated meanings assigned by this office. Today's
+        energy rotates daily.
       </p>
     </details>
   </section>
@@ -221,6 +251,100 @@
   nameSel.addEventListener("change", render);
   parkSel.addEventListener("change", render);
   render();
+
+  // ---------- Reading 03 · Park Horoscope ----------
+  const FENCE = {
+    "Full":    "a sheltered moon",
+    "Partial": "a permeable aura",
+    "None":    "boundless, for better or worse",
+  };
+  const LIT = {
+    "Yes": "night-eligible",
+    "No":  "dusk is your ceiling",
+  };
+  const SURFACE = {
+    "Grass":                      "the material of stubborn hope",
+    "Engineered Wood Fibre":      "the material of cautious optimism",
+    "Pea Gravel":                 "the material of reluctant acceptance",
+    "Sand":                       "the material of blurred boundaries",
+    "Choker Sand":                "the material of discreet consequence",
+    "Grass, Dirt":                "the material of pragmatism",
+    "Crushed Granite":            "the material of small violence",
+    "Synthetic K-9 Turf":         "the material of the future tense",
+    "Grass, Engineered Wood Fibre": "the material of hedged bets",
+    "Synthetic K-9 Turf, Pea Gravel": "the material of contradiction",
+  };
+  const ENERGIES = [
+    "slightly damp", "aggressively sunny", "politely overcast",
+    "morally neutral", "unusually pensive", "fetch-forward",
+    "treat-adjacent", "leash-agnostic", "statistically average",
+    "emotionally vacant", "quietly triumphant", "suspiciously calm",
+    "cautiously optimistic", "unrelentingly present",
+    "mildly conspiratorial", "aggressively grateful",
+    "observably squirrel-aware", "bureaucratically serene",
+  ];
+
+  function hash(s) {
+    let h = 2166136261 >>> 0;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 16777619) >>> 0;
+    }
+    return h;
+  }
+  function line(field, text) {
+    return `<p class="line"><span class="field">${field}</span>${text}</p>`;
+  }
+  function areaLine(sqm) {
+    if (sqm == null) return line("Footprint", "unmeasured — a private matter.");
+    if (sqm < 500)    return line("Footprint", `${sqm.toLocaleString()} m². Compact energy.`);
+    if (sqm < 2000)   return line("Footprint", `${sqm.toLocaleString()} m². Modest proportions.`);
+    if (sqm < 5000)   return line("Footprint", `${sqm.toLocaleString()} m². Balanced chakra.`);
+    if (sqm < 15000)  return line("Footprint", `${sqm.toLocaleString()} m². Expansive vibes.`);
+    return line("Footprint", `${sqm.toLocaleString()} m². Cosmic.`);
+  }
+  function renderReading() {
+    const park = data.parks.find(p => p.id === +astroSel.value);
+    if (!park) return;
+    const top100 = data.names.slice(0, 100);
+    const patron = top100[hash(park.name) % top100.length];
+    const today = new Date().toISOString().slice(0, 10);
+    const energy = ENERGIES[hash(today + park.name) % ENERGIES.length];
+
+    const lines = [];
+    lines.push(`<p class="park">${park.name}. <span>Your patron is <span class="patron">${patron.name}</span>.</span></p>`);
+
+    const fence = FENCE[park.fenced] ?? "borderwise ambiguous";
+    lines.push(line("Perimeter", `${park.fenced || "unrecorded"} — ${fence}.`));
+
+    const lit = LIT[park.lit] ?? "circadianly undeclared";
+    lines.push(line("Illumination", `${park.lit || "unrecorded"} — ${lit}.`));
+
+    const surf = SURFACE[park.surface] ?? "a composite material, composite spirit";
+    lines.push(line("Surface", `${park.surface || "unrecorded"} — ${surf}.`));
+
+    if (park.small_dog_area === "Yes") {
+      lines.push(line("Tier", "A nook is held for the small. Size is honoured here."));
+    } else {
+      lines.push(line("Tier", "All paws are equal. No size is privileged."));
+    }
+
+    lines.push(areaLine(park.area_sqm));
+
+    lines.push(`<p class="energy">Today's energy: <strong>${energy}</strong>.</p>`);
+
+    document.getElementById("astro-out").innerHTML = lines.join("\n");
+  }
+
+  const astroSel = document.getElementById("astro-sel");
+  for (const p of data.parks) {
+    const o = document.createElement("option");
+    o.value = p.id; o.textContent = p.name;
+    astroSel.appendChild(o);
+  }
+  if (hp) astroSel.value = hp.id;
+  astroSel.addEventListener("change", renderReading);
+  renderReading();
 })();
 </script>
 </body>
